@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\CardGameHub\\CardGameHub\\CardGameHub\\CardGameHub.csproj": {}
+    "H:\\Hobbyprojecten\\Cardgamehub\\CardGameHub\\CardGameHub.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\CardGameHub\\CardGameHub\\CardGameHub\\CardGameHub.csproj": {
+    "H:\\Hobbyprojecten\\Cardgamehub\\CardGameHub\\CardGameHub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\CardGameHub\\CardGameHub\\CardGameHub\\CardGameHub.csproj",
+        "projectUniqueName": "H:\\Hobbyprojecten\\Cardgamehub\\CardGameHub\\CardGameHub.csproj",
         "projectName": "CardGameHub",
-        "projectPath": "D:\\Projects\\CardGameHub\\CardGameHub\\CardGameHub\\CardGameHub.csproj",
-        "packagesPath": "C:\\Users\\dunca\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\CardGameHub\\CardGameHub\\CardGameHub\\obj\\",
+        "projectPath": "H:\\Hobbyprojecten\\Cardgamehub\\CardGameHub\\CardGameHub.csproj",
+        "packagesPath": "C:\\Users\\fogsl\\.nuget\\packages\\",
+        "outputPath": "H:\\Hobbyprojecten\\Cardgamehub\\CardGameHub\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dunca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fogsl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "c:\\program files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

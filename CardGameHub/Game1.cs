@@ -35,6 +35,7 @@ namespace CardGameHub
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            _currentState = new MainSceneState(this, GraphicsDevice, Content);
             IsMouseVisible = true;
             base.Initialize();
         }

@@ -1,22 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata;
-using System.Text;
-using System.Threading.Tasks;
-using CardGameHub.Controls;
-using CardGameHub.Games.Skipbo.GameStates;
+﻿using CardGameHub.Controls;
+using CardGameHub.Gamestate;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace CardGameHub.Gamestate
+namespace CardGameHub.Games.Skipbo.GameStates
 {
-    internal class MainSceneState : State
+    internal class SkipboStartState : State
     {
         private List<Button> buttons;
         private Texture2D texture;
-        public MainSceneState(Game1 game, GraphicsDevice graphicsDevice, ContentManager content) : base(game, graphicsDevice, content)
+        public SkipboStartState(Game1 game, GraphicsDevice graphicsDevice, ContentManager content) : base(game, graphicsDevice, content)
         {
             this._game = game;
             this._graphicsDevice = graphicsDevice;
@@ -24,37 +23,35 @@ namespace CardGameHub.Gamestate
             this.texture = content.Load<Texture2D>("Chips/chipBlue");
             SpriteFont ButtonFont = content.Load<SpriteFont>("Fonts/Font");
 
-
-            var pokerButton = new Button(texture, ButtonFont, 200, 200)
+            var offlineButton = new Button(texture, ButtonFont, 200, 200)
             {
                 Position = new Vector2(400, 500),
                 Text = "",
                 Pencolour = Color.White
             };
-            pokerButton.Click += pokerButton_Click;
+            offlineButton.Click += offlineButton_Click;
 
-            var skipboButton = new Button(texture, ButtonFont, 200, 200)
+            var onlineButton = new Button(texture, ButtonFont, 200, 200)
             {
-                Position = new Vector2(1200, 500),
+                Position = new Vector2(500, 500),
                 Text = "",
                 Pencolour = Color.White
             };
-            skipboButton.Click += skipboButton_Click;
+            onlineButton.Click += onlineButton_Click;
 
             buttons = new List<Button>()
             {
-                pokerButton,
-                skipboButton
+                offlineButton,
+                onlineButton
             };
         }
-        //game.ChangeState(new SkipboStartState(game, graphicsDevice, content));
 
-        private void skipboButton_Click(object sender, EventArgs e)
+        private void onlineButton_Click(object sender, EventArgs e)
         {
-            _game.ChangeState(new SkipboStartState(_game, _graphicsDevice, _content));
+            _game.ChangeState(new SkipboLobbyState(_game, _graphicsDevice, _content));
         }
 
-        private void pokerButton_Click(object sender, EventArgs e)
+        private void offlineButton_Click(object sender, EventArgs e)
         {
             throw new NotImplementedException();
         }

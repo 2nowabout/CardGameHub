@@ -15,7 +15,7 @@ namespace CardGameHub.Gamestate
 
         protected ContentManager _content;
 
-        protected GraphicsDevice _graphicsdevice;
+        protected GraphicsDevice _graphicsDevice;
 
         protected Game1 _game;
 
@@ -31,7 +31,7 @@ namespace CardGameHub.Gamestate
         {
             _game = game;
 
-            _graphicsdevice = graphicsDevice;
+            _graphicsDevice = graphicsDevice;
 
             _content = content;
         }
