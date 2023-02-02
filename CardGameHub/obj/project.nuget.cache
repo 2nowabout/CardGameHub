@@ -1,11 +1,15 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "smlBngR5B9qmcyTy8cHVy0ngtawmVeC3CZW8seYAxqpjrlH6rtzysAa6MN/KFMIB2hUb+s45D/gwhufEa1MFzA==",
+=======
+  "dgSpecHash": "LwvwNmysFUSYww4XzeJO7mmQlq53p+qXHIiZuZO5zlYr6CwVW2evQa/Bdn5lwEvQWarWfGz1N0EZAadT9yGIOA==",
+>>>>>>> origin/master
   "success": true,
-  "projectFilePath": "D:\\Projects\\CardGameHub\\CardGameHub\\CardGameHub\\CardGameHub.csproj",
+  "projectFilePath": "H:\\Hobbyprojecten\\Cardgamehub\\CardGameHub\\CardGameHub.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dunca\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-    "C:\\Users\\dunca\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    "C:\\Users\\fogsl\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\fogsl\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
   ],
   "logs": []
 }
